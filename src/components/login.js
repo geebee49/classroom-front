@@ -15,7 +15,7 @@ const login=()=>{
         <br /><br/>
         <TextField id="outlined-basic" label="Password" variant="outlined" type="password"/>
         <br />
-        <button className="submit-btn">Sign-in</button>
+        <button className="submit-btn">login</button>
       </div>
     </div>
   );
