@@ -1,0 +1,25 @@
+.student-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .welcome-student {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .intro {
+    display: flex;
+    margin-bottom:40px ;
+  }
+
+  h2 {
+    margin: 10px;
+    color: black;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
