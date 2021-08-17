@@ -18,13 +18,11 @@ h1 {
 
 #outlined-basic{
   border-radius: 20px;
-  margin: 5px;
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 5px;
   width: 300px;
   height: 25px;
   border: 1px solid #bac6c7 0.7;
-  font-family: Momcake;
 }
 
 .student-btn {
@@ -46,6 +44,7 @@ h1 {
   margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: 1px 4px 6px #888888;
+  font-family: Momcake;
 }
 .submit-btn {
   color: #fff;
@@ -56,4 +55,5 @@ h1 {
   margin-top: 20px;
   border-radius: 20px;
   box-shadow: 1px 4px 6px #888888;
+  font-family: Momcake;
 }

@@ -1,0 +1,19 @@
+.edit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bio {
+  margin-top: 10vh;
+  display: flex;
+  width: 45%;
+  justify-content: center;
+}
+
+.bio h1 {
+  margin-left: 1vw;
+}
+
+.profilePicture {
+  margin-top: 10vh;
+}

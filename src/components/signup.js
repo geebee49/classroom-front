@@ -4,23 +4,25 @@ import { TextField} from "@material-ui/core";
 
 
 
-const login=()=>{ 
+const signup=()=>{ 
     return (
     <div className="signup">
       <div className="sign">
-        <h1>Sign-In</h1>
+        <h1>Sign-Up</h1>
         <button className="student-btn">Student</button>
         <button className="teacher-btn">Teacher</button>
         <br />
         
         <TextField id="outlined-basic" label="Email" variant="outlined" type="email"/>
-        <br /><br/>
+        <br/><br/>
         <TextField id="outlined-basic" label="Password" variant="outlined" type="password"/>
-        <br />
-        <button className="submit-btn">login</button>
+        <br/><br/>
+        <TextField id="outlined-basic" label="Re-Enter Password" variant="outlined" type="password"/>
+        <br/><br/>
+        <button className="submit-btn">Sign Up</button>
       </div>
     </div>
   );
  }
 
- export default login;
+ export default signup;
