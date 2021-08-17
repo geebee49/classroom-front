@@ -1,0 +1,59 @@
+.signup {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e2f3f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Momcake;
+  font-weight: 500;
+  font-size: 3em;
+}
+
+#outlined-basic{
+  border-radius: 20px;
+  margin: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 300px;
+  height: 25px;
+  border: 1px solid #bac6c7 0.7;
+  font-family: Momcake;
+}
+
+.student-btn {
+  width: 160px;
+  height: 50px;
+  color: #fff;
+  background-color: #000;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 4px 6px #888888;
+  font-family: Momcake;
+}
+
+.teacher-btn {
+  width: 160px;
+  height: 50px;
+  color: #000;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 4px 6px #888888;
+}
+.submit-btn {
+  color: #fff;
+  width: 300px;
+  height: 45px;
+  background-color: #000;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 4px 6px #888888;
+}
