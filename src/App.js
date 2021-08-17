@@ -15,7 +15,6 @@ function App() {
       <div>
         <Route path='/login' component={login}></Route>
         <Route path='/edit' component={Student}></Route>
-        <Route path='/signup' component={signup}></Route>
         <Route path='/welcome' component={Welcome}></Route>
       </div>
     </BrowserRouter>
