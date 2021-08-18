@@ -1,11 +1,12 @@
 .class {
     width: 300px;
     height: 30vh;
-    background-color: #92adb0;
-    margin: 1px;
+    background-color: #B0C0C2;
+    margin: 10px;
     border-radius: 10px;
-    border: 1px solid rgb(119, 119, 199);
+    border: 1px solid #B0C0C2;
     cursor: pointer;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
   .try {
@@ -15,7 +16,7 @@
   }
 
   .classrooms {
-    border: 1px solid black;
+    border: 1px solid #B0C0C2;
     border-radius: 20px;
     padding: 20px ;
   }
