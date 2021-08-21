@@ -28,7 +28,7 @@ const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    backgroundColor: "#e2f3f5"
+    backgroundColor: "#e2f3f5",
   },
   appBarShift: {
     marginLeft: drawerWidth,
@@ -49,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
     width: drawerWidth,
     flexShrink: 0,
     whiteSpace: 'nowrap',
+    height: '100vh',
   },
   drawerOpen: {
     width: drawerWidth,
