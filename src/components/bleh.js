@@ -53,6 +53,9 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerOpen: {
     width: drawerWidth,
+    backgroundColor: "#B0C0C2",
+    borderTopRightRadius: '15px',
+    borderBottomRightRadius: '15px',
     transition: theme.transitions.create('width', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.enteringScreen,
@@ -64,6 +67,9 @@ const useStyles = makeStyles((theme) => ({
       duration: theme.transitions.duration.leavingScreen,
     }),
     overflowX: 'hidden',
+    backgroundColor: "#B0C0C2",
+    borderTopRightRadius: '15px',
+    borderBottomRightRadius: '15px',
     width: theme.spacing(7) + 1,
     [theme.breakpoints.up('sm')]: {
       width: theme.spacing(9) + 1,
@@ -73,6 +79,7 @@ const useStyles = makeStyles((theme) => ({
   content: {
     flexGrow: 1,
     padding: theme.spacing(3),
+    margin: '10px'
   },
 }));
 
