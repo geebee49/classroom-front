@@ -1,19 +1,31 @@
 .edit {
+    display: flex;
+    flex-direction: column;
+    background-color: #e2f3f5;
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+.editPage{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 .bio {
-  margin-top: 10vh;
-  display: flex;
-  width: 45%;
-  justify-content: center;
+  display: block;
+  
 }
 
-.bio h1 {
-  margin-left: 1vw;
+.bio h1{
+  font-family: "Momcake";
 }
+
 
 .profilePicture {
   margin-top: 10vh;
+}
+
+.textfields{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-top: 10px;
 }

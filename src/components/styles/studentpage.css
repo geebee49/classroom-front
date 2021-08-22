@@ -1,0 +1,9 @@
+.content{
+    flex-grow: 1;
+    /*padding: theme.spacing(3);*/
+    
+  }
+
+.studentpg{
+    display: flex;
+}
