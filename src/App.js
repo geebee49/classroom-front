@@ -19,7 +19,6 @@ function App() {
         <Route path='/signup' component={signup}></Route>
         <Route path='/welcome' component={Welcome}></Route>
         <Route path='/mainpage' component={MiniDrawer}></Route>
-        
       </div>
     </BrowserRouter>
     </div>
