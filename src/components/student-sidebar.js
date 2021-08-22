@@ -1,4 +1,3 @@
-
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
@@ -12,7 +11,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import Classes from "../components/classes";
 import "./styles/student.css"
 import ExitToAppSharpIcon from '@material-ui/icons/ExitToAppSharp';
 import AccountCircleSharpIcon from '@material-ui/icons/AccountCircleSharp';
@@ -164,19 +162,6 @@ export default function MiniDrawer() {
             </ListItem>
         </List>
       </Drawer>
-      <main className={classes.content}>
-      <div>
-        <div id="student-page">
-          <div className="intro">
-            <img src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/mammootty_1340_29-07-2016_11-43-24.jpg"  alt="Greatest actor after mohanlal" width="50px" height=" 50px"/>
-            <h2>Welcome Mammooka</h2>
-          </div>
-          </div>
-        <Classes />
-      </div>
-    </main>
     </div>
-    
-  );
-  
-}
+  )};
+

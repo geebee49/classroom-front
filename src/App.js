@@ -5,7 +5,7 @@ import login from './components/login';
 import Student from './components/edit';
 import signup from './components/signup';
 import Welcome from './components/welcome';
-import MiniDrawer from './components/bleh';
+import studentpage from './components/student-mainpage';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path='/edit' component={Student}></Route>
         <Route path='/signup' component={signup}></Route>
         <Route path='/welcome' component={Welcome}></Route>
-        <Route path='/mainpage' component={MiniDrawer}></Route>
+        <Route path='/mainpage' component={studentpage}></Route>
       </div>
     </BrowserRouter>
     </div>

@@ -1,7 +1,8 @@
 .student-page {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 30px 30px;
   }
   .welcome-student {
     display: flex;
@@ -10,9 +11,16 @@
   }
 
 
+
+.studentpg{
+    display: flex;
+}
+
+
   .intro {
     display: flex;
     margin-bottom:40px ;
+    margin-left: 10px;
   }
 
   h2 {
