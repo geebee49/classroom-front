@@ -10,40 +10,26 @@ const Student = () => {
   const [email, setEmail] = useState("");
   return (
     <div className="editPage">
-        <MiniDrawer/>
+      <MiniDrawer/>
       <div className="edit">
+        <div className="header">
+        <img src="user.png" alt="bleh" width="40px" height="40px"/>
+        <h1>EDIT PROFILE</h1>
+        </div>
         <div className="bio">
-          <h1>EDIT PROFILE</h1>
-          <div>
           <div className="textfields">
-             <TextField
-              value={name}
-              label="Enter your name"
-              onChange={(e) => {
-                setName(e.target.value);
-              }}
-            /> 
-            <TextField
-              value={email}
-              type="password"
-              label="New Password"
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
-            />
-            <TextField
-              value={phone}
-              type="password"
-              label="Confirm Password"
-              onChange={(e) => {
-                setPhone(e.target.value);
-              }}
-            />
-          </div>
-          <img src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/mammootty_1340_29-07-2016_11-43-24.jpg" alt="xyz" width="100px" height="100px"></img>
+          <TextField id="outlined-basic" label="Enter your Name" variant="outlined" value={name} onChange={(e) => { setName(e.target.value);}}/>
+        <br/><br/>
+        <TextField id="outlined-basic" label="Enter New Password" variant="outlined" type="password" value={email} onChange={(e) => { setEmail(e.target.value);}}/>
+        <br/><br/>
+        <TextField id="outlined-basic" label="Confirm Password" variant="outlined" type="password" value={phone} onChange={(e) => { setPhone(e.target.value);}}/>
+        <br/><br/>
+        <button className="save-btn">Save Changes</button>
+          </div >
+          <div className="dp">
+            <img className="image-edit" src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/mammootty_1340_29-07-2016_11-43-24.jpg" alt="xyz" width="250px" height="250px"></img>
           </div>
         </div>
-      
       </div>
     </div>
   );
