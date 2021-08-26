@@ -5,3 +5,7 @@
     height: 3rem;
     margin: 15px;
 }
+.screenshare:hover,.voice:hover,.video:hover{
+    background-color: #727174;
+    color:white;
+}
