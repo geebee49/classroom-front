@@ -4,7 +4,7 @@ import MiniDrawer from './student-sidebar';
 import Classes from './classes';
 import './styles/student.css';
 
-export default function studentpage() {
+export default function Studentpage() {
   return(
     <div className="studentpg">
     <MiniDrawer/>
