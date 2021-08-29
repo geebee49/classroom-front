@@ -45,7 +45,7 @@ export default function ButtonGroup(){
         }
     };
     return(
-        <div>
+        <div className="btn-grp">
             <button className="screenshare" onClick={handleScreen}>{screenIcon}</button>
             <button className="voice" onClick={handleVoice}>{voiceIcon}</button>
             <button className="video" onClick={handleVideo}>{videoIcon}</button>

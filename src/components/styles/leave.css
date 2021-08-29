@@ -6,6 +6,13 @@
     width: 244px;
     height: 45px;
     margin: 5px;
+    position: absolute;
+    right: 5%;
+    bottom: 15px;
+}
+
+.leave_btn:hover,.exit_btn:hover{
+    background-color: #f05a71;
 }
 
 .leave_txt{
@@ -20,6 +27,10 @@
     width: 230px;
     height: 55px;
     margin: 15px 3px;
+}
+
+.download_btn:hover{
+    background-color: #b9b6b6;
 }
 
 .exit_btn{

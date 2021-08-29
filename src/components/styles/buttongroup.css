@@ -10,3 +10,10 @@
     background-color: #727174;
     color:white;
 }
+
+.btn-grp{
+    position: absolute;
+    bottom: 5px;
+    right: 50%;
+    
+}

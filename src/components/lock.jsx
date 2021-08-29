@@ -2,6 +2,7 @@ import React from 'react';
 import Switch from "react-switch";
 import LockOpenOutlinedIcon from '@material-ui/icons/LockOpenOutlined';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+import Styles from "./styles/lock.css";
 
 export default function LockClassroom() {
     const [state,setState]=React.useState({checked:true});
@@ -9,7 +10,7 @@ export default function LockClassroom() {
         setState({checked});       
     };
     return(
-        <div>
+        <div className="lock">
         <Switch 
         onChange={handleChange} 
         checked={state.checked}  
@@ -18,8 +19,8 @@ export default function LockClassroom() {
         handleDiameter={28}
         borderRadius={'20px'}
         offColor="#ffffff"
-        onColor="#92ADB0"
-        offHandleColor="#92ADB0"
+        onColor="#B0C0C2"
+        offHandleColor="#B0C0C2"
         onHandleColor="#ffffff"
         uncheckedIcon={
         <div
