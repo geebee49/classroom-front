@@ -8,12 +8,9 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Divider from "@material-ui/core/Divider";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import Classes from "../components/classes";
 import "./styles/student.css";
 import ExitToAppSharpIcon from "@material-ui/icons/ExitToAppSharp";
 import AccountCircleSharpIcon from "@material-ui/icons/AccountCircleSharp";
@@ -44,6 +41,7 @@ const useStyles = makeStyles((theme) => ({
     display: "none",
   },
   drawer: {
+    display: "inline",
     width: drawerWidth,
     flexShrink: 0,
     whiteSpace: "nowrap",
@@ -80,8 +78,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "10px",
   },
 }));
-
-export default function MiniDrawer() {
+export default function SideBar() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -95,8 +92,7 @@ export default function MiniDrawer() {
   };
 
   return (
-    <div className={classes.root}>
-      <CssBaseline />
+    <>
       <AppBar
         position="fixed"
         className={clsx(classes.appBar, {
@@ -174,22 +170,6 @@ export default function MiniDrawer() {
           </ListItem>
         </List>
       </Drawer>
-      <main className={classes.content}>
-        <div>
-          <div id="student-page">
-            <div className="intro">
-              <img
-                src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/mammootty_1340_29-07-2016_11-43-24.jpg"
-                alt="Greatest actor after mohanlal"
-                width="50px"
-                height=" 50px"
-              />
-              <h2>Welcome Mammooka</h2>
-            </div>
-          </div>
-          <Classes />
-        </div>
-      </main>
-    </div>
+    </>
   );
 }
