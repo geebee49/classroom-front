@@ -17,7 +17,7 @@ const Join = () => {
             <div className="code">
                 <h3>Enter Your Classroom Code</h3>
                 <div className="textfieldsJoin">
-                    <TextField id="outlined-basic" label="Enter your Name" variant="outlined" value={name} onChange={(e) => { setName(e.target.value);}}/>
+                    <TextField id="outlined-basic" label="Enter your Classroom Code" variant="outlined" value={name} onChange={(e) => { setName(e.target.value);}}/>
                     <br/><br/>
                     <button className="join-btn">Join</button>
                 </div >
