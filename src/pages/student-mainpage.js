@@ -1,8 +1,8 @@
 
 import React from 'react';
-import MiniDrawer from './student-sidebar';
-import Classes from './classes';
-import './styles/student.css';
+import MiniDrawer from '../components/student-sidebar';
+import Classes from '../components/classes';
+import '../styles/student.css';
 
 export default function Studentpage() {
   return(

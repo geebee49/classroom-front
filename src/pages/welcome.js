@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/welcome.css';
+import '../styles/welcome.css';
 import { Link } from "react-router-dom";
 import {FcGoogle} from 'react-icons/fc';
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { TextField } from "@material-ui/core";
-import "./styles/edit.css";
-import MiniDrawer from "./student-sidebar";
+import "../styles/edit.css";
+import MiniDrawer from "../components/student-sidebar";
 
 
 const Student = () => {

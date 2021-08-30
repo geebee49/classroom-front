@@ -1,4 +1,4 @@
-import "./styles/classes.css"
+import "../styles/classes.css"
 import { FaPlus } from "react-icons/fa";
 
 function Classes() {

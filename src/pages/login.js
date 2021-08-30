@@ -1,19 +1,19 @@
 import React from "react";
-import './styles/signup.css';
+import '../styles/signup.css';
 import { TextField} from "@material-ui/core";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
 
-const Login_teacher=()=>{ 
+const Login=()=>{ 
     const [email, setemail] = useState("");
     const [pwd, setpwd] = useState("");
     return (
     <div className="signup">
       <div className="sign">
         <h1>Sign-In</h1>
-        <Link to="/login"> <button className="teacher-btn">Student</button></Link>
-       <button className="student-btn">Teacher</button>
+        <button className="student-btn">Student</button>
+        <Link to="/teacherlogin"> <button className="teacher-btn">Teacher</button></Link>
         <br />
         
         <TextField id="outlined-basic" value={email} onChange={(e)=>{setemail(e.target.value);}} label="Email" variant="outlined" type="email"/>
@@ -29,4 +29,4 @@ const Login_teacher=()=>{
   );
  }
 
- export default Login_teacher;
+ export default Login;
