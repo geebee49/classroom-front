@@ -1,8 +1,8 @@
 import React from 'react';
-import Ask from './ask';
-import LeaveClassroom from './leave';
-import ButtonGroup from './buttonGroup';
-import LockClassroom from './lock';
+import Ask from '../components/ask';
+import LeaveClassroom from '../components/leave';
+import ButtonGroup from '../components/buttonGroup';
+import LockClassroom from '../components/lock';
 import Styles from "./styles/teacherVideo.css";
 import Columns from "react-columns";
 
