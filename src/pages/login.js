@@ -1,4 +1,3 @@
-import React from "react";
 import '../styles/signup.css';
 import { TextField} from "@material-ui/core";
 import { useState } from "react";
@@ -22,11 +21,27 @@ const Login=()=>{
         <br />
         <button className="submit-btn"
         onClick={
-          console.log("logged in")
-          }>login</button>
+          console.log("clicked")
+        }
+        >login</button>
       </div>
     </div>
   );
  }
 
  export default Login;
+ //signin
+
+// import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+
+// const auth = getAuth();
+// signInWithEmailAndPassword(auth, email, password)
+//   .then((userCredential) => {
+//     // Signed in 
+//     const user = userCredential.user;
+//     // ...
+//   })
+//   .catch((error) => {
+//     const errorCode = error.code;
+//     const errorMessage = error.message;
+//   });

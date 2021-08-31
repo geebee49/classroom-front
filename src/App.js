@@ -6,7 +6,6 @@ import Signup from './pages/signup';
 import Welcome from './pages/welcome';
 import Studentpage from './pages/student-mainpage';
 import Login_teacher from './pages/login-teacher';
-import Join from './pages/join';
 
 
 function App() {
@@ -17,9 +16,8 @@ function App() {
       <div>
         <Route path='/login' component={Login}></Route>
         <Route path='/edit' component={Student}></Route>
-        <Route path='/join' component={Join}></Route>
         <Route path='/signup' component={Signup}></Route>
-        <Route path='/' component={Welcome}></Route>
+        <Route path='/welcome' component={Welcome}></Route>
         <Route path='/mainpage' component={Studentpage}></Route>
         <Route path='/teacherlogin' component={Login_teacher}></Route>
       </div>
@@ -29,3 +27,38 @@ function App() {
 }
 
 export default App;
+
+  // Import the functions you need from the SDKs you need
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+
+// Initialize Firebase
+
+//signinwithpopup
+
+// import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+
+// const auth = getAuth();
+// signInWithPopup(auth, provider)
+  // .then((result) => {
+    // This gives you a Google Access Token. You can use it to access the Google API.
+    // const credential = GoogleAuthProvider.credentialFromResult(result);
+    // const token = credential.accessToken;
+    // The signed-in user info.
+    // const user = result.user;
+    // ...
+  // }).catch((error) => {
+    // Handle Errors here.
+    // const errorCode = error.code;
+    // const errorMessage = error.message;
+    // The email of the user's account used.
+    // const email = error.email;
+    // The AuthCredential type that was used.
+    // const credential = GoogleAuthProvider.credentialFromError(error);
+    // ...
+  // });

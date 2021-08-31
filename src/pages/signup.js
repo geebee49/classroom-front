@@ -1,4 +1,3 @@
-import React from "react";
 import '../styles/signup.css';
 import { TextField} from "@material-ui/core";
 import { useState } from "react";
@@ -29,3 +28,20 @@ const Signup=()=>{
  }
 
  export default Signup;
+ //login-signup
+
+// import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+
+// const auth = getAuth();
+// createUserWithEmailAndPassword(auth, email, password)
+//   .then((userCredential) => {
+//     // Signed in 
+//     const user = userCredential.user;
+//     // ...
+//   })
+//   .catch((error) => {
+//     const errorCode = error.code;
+//     const errorMessage = error.message;
+//     // ..
+//   });
+
