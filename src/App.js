@@ -8,7 +8,7 @@ import Welcome from './components/welcome';
 import MiniDrawer from './components/bleh';
 import LeaveClassroom from './components/leave';
 import PopQuestion from './components/ask';
-import TeacherVideo from './components/teacherVideo';
+import TeacherVideo from './pages/teacherVideo';
 
 
 function App() {

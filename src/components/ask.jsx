@@ -1,7 +1,7 @@
 import React from 'react';
 import Dialog from '@material-ui/core/Dialog';
 import CloseIcon from '@material-ui/icons/Close';
-import Styles from "./styles/ask.css";
+import Styles from "../styles/ask.css";
 
   
 export default function LeaveClassroom() {
@@ -28,6 +28,9 @@ export default function LeaveClassroom() {
           <div className="ask_title">
             Question
           </div>
+          <input type="textarea" name="textValue" className="qn-input" />
+
+
             <div > 
             <button className="submit_btn" >
             Submit

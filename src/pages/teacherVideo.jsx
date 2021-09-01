@@ -3,7 +3,7 @@ import Ask from '../components/ask';
 import LeaveClassroom from '../components/leave';
 import ButtonGroup from '../components/buttonGroup';
 import LockClassroom from '../components/lock';
-import Styles from "./styles/teacherVideo.css";
+import Styles from "../styles/teacherVideo.css";
 import Columns from "react-columns";
 
 export default function TeacherVideo(){

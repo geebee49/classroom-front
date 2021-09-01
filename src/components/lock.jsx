@@ -2,7 +2,7 @@ import React from 'react';
 import Switch from "react-switch";
 import LockOpenOutlinedIcon from '@material-ui/icons/LockOpenOutlined';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
-import Styles from "./styles/lock.css";
+import Styles from "../styles/lock.css";
 
 export default function LockClassroom() {
     const [state,setState]=React.useState({checked:true});

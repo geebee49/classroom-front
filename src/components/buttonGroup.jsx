@@ -5,7 +5,7 @@ import MicOffIcon from '@material-ui/icons/MicOff';
 import MicIcon from '@material-ui/icons/Mic';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import VideocamOffIcon from '@material-ui/icons/VideocamOff';
-import Styles from "./styles/buttongroup.css";
+import Styles from "../styles/buttongroup.css";
 
 export default function ButtonGroup(){
     const[voice,setVoice]= React.useState(true);

@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/signup.css';
+import '../styles/signup.css';
 import { TextField} from "@material-ui/core";
 
 
