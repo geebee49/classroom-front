@@ -1,0 +1,79 @@
+.ask_btn{
+    width: 170px;
+    height: 40px;
+    background: #B0C0C2;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border:none;
+    position: absolute;
+    right: 25%;
+    bottom: 20px;
+}
+
+.ask_btn:hover{
+    background: rgba(98, 115, 117, 0.5);
+}
+
+.ask_title{
+    font-size: 1.2rem;
+    margin: 3px;
+    padding: 5px;
+    text-align: left;
+    margin-left:25px ;
+}
+
+
+.submit_btn{
+    background-color: #B1F09B;
+    border-radius: 22px;
+    box-shadow: 0px 3px 14px 1px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 282px;
+    height: 40px;
+    margin: 15px 3px;
+}
+
+.submit_btn:hover{
+    background-color: #a8e093;
+}
+
+.ask_dialog{
+    padding: 3rem 0 0 0 ;
+    text-align: center;
+    background-color: #9DB1B4;
+    box-shadow: 0px 15px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    width: 550px;
+    height: 250px;
+}
+
+.close_btn{
+    float: right;
+    border: none;
+    background-color: #9DB1B4;
+    margin-right: 30px;
+}
+
+.qn-input{
+    border: none;
+    border-radius: 2rem;
+    width: 500px;
+    height: 1.5rem;
+    outline: none;
+}
+
+.opt-input{
+    border: none;
+    border-radius: 2rem;
+    width: 300px;
+    height: 1rem;
+    outline: none;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+
+.opt-input-container{
+    margin: 15px;
+}
+
