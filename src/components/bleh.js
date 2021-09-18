@@ -14,7 +14,7 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import Classes from "../components/classes";
-import "./styles/student.css";
+import "../styles/student.css";
 import ExitToAppSharpIcon from "@material-ui/icons/ExitToAppSharp";
 import AccountCircleSharpIcon from "@material-ui/icons/AccountCircleSharp";
 import EditSharpIcon from "@material-ui/icons/EditSharp";
