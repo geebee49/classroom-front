@@ -7,6 +7,9 @@ import signup from "./components/signup";
 import Welcome from "./components/welcome";
 import MiniDrawer from "./components/bleh";
 import TeacherInterface from "./pages/teacher-interface";
+import LeaveClassroom from "./components/leave";
+import PopQuestion from "./components/ask";
+import TeacherVideo from "./pages/teacherVideo";
 
 function App() {
   return (
@@ -19,6 +22,7 @@ function App() {
           <Route path="/welcome" component={Welcome}></Route>
           <Route path="/mainpage" component={MiniDrawer}></Route>
           <Route path="/teacher-interface" component={TeacherInterface}></Route>
+          <Route path="/teacherVideo" component={TeacherVideo}></Route>
         </div>
       </BrowserRouter>
     </div>

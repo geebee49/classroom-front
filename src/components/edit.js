@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import "./styles/edit.css";
+import "../styles/edit.css";
 
 
 const Student = () => {

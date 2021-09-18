@@ -1,0 +1,68 @@
+.leave_btn{
+    border-radius: 25px;
+    background-color: #FF6A80;
+    box-shadow: 0px 3px 14px 1px rgba(0, 0, 0, 0.25);
+    border: none;
+    width: 244px;
+    height: 45px;
+    margin: 5px;
+    position: absolute;
+    right: 5%;
+    bottom: 15px;
+}
+
+.leave_btn:hover,.exit_btn:hover{
+    background-color: #f05a71;
+}
+
+.leave_txt{
+    color: white;
+}
+
+.download_btn{
+    background-color: #C4C4C4;
+    box-shadow: 5px 8px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    width: 230px;
+    height: 55px;
+    margin: 15px 3px;
+}
+
+.download_btn:hover{
+    background-color: #b9b6b6;
+}
+
+.exit_btn{
+    background: #FF6A80;
+    box-shadow: 0px 3px 14px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    border: none;
+    width: 244px;
+    height: 45px;
+    margin: 15px 3px;
+}
+
+.leave_title{
+    color: white;
+    font-size: 1.2rem;
+    margin: 3px;
+    padding: 5px;
+}
+
+.leave_dialog{
+    padding: 3rem 0 0 0 ;
+    text-align: center;
+    background-color: #9DB1B4;
+    box-shadow: 0px 15px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    width: 550px;
+    height: 250px;
+}
+
+.close_btn{
+    float: right;
+    border: none;
+    background-color: #9DB1B4;
+    margin-right: 30px;
+}

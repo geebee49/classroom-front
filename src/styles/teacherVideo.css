@@ -1,0 +1,30 @@
+.videoScreen{
+    border: solid 0.7px black;
+    border-radius: 3rem;
+    height: 620px;
+    width: 1140px;
+    margin: 10px;
+    padding: 2px;
+}
+.teacher-video{
+    border: solid 0.7px black;
+    border-radius: 3rem;
+    height: 270px;
+    width: 300px;
+    margin: 10px;
+    padding: 2px;
+    position: absolute;
+    right: 2%;
+    top: 5px;;
+}
+.chat{
+    border: solid 0.7px black;
+    border-radius: 3rem;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 2px;
+    position: absolute;
+    right: 2%;
+    bottom: 110px;
+}
